@@ -1,1 +1,1 @@
-# TicTacToe-Network-Game
+This project borrows some code from the UTA Computer Engineering Internet of Things/Networks course to develop a networked version of a tic-tac-toe (T3) game. This project helps to become accustomed to a simple UDP network protocol and server-client network models.
