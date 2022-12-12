@@ -1,5 +1,5 @@
 // Tic-tac-toe (T3) Network Game
-// Jason Losh
+// Jason Losh origin code
 
 //-----------------------------------------------------------------------------
 // Compile notes for C99 code
@@ -147,7 +147,7 @@ int main(int argc, char* argv[])
 {
     char *remoteIp;
     char *role;
-    char str[100]; 		//str2[100] might need str2
+    char str[100]; 		
     char board[3][3];
     char move[100], move2[100];
     bool validMove;
@@ -210,7 +210,6 @@ int main(int argc, char* argv[])
 	printf("wyd here\n");
     // (DONE) TODO: Determine remote port that you will send data to
     //       If you are server, send to client port, and vice versa
-
 
     // Setup game
     clearBoard(board);
